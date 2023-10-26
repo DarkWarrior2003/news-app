@@ -32,7 +32,7 @@ export default function News(props) {
     return () => {
       updatenews();
     };
-  }, []);
+  },[]);
 
   // handlenextclick = async () => {
   //   const url = `https://newsapi.org/v2/top-headlines?country=${
